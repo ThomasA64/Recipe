@@ -9,6 +9,7 @@ export default function RecipeList({ recipes }) {
           return <Recipe key={recipe.id} {...recipe} />;
         })}
       </div>
+      <button>ADD RECIPE</button>
     </>
   );
 }
