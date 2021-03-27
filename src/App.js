@@ -1,5 +1,10 @@
 import React from "react";
+
+//components:
 import RecipeList from "./RecipeList";
+
+//styles:
+import "./styles/app.css";
 
 function App() {
   return <RecipeList recipes={sampleRecipes} />;
