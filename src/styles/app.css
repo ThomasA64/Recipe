@@ -2,6 +2,8 @@
 /* This library is imported from Create-React App and allows for the CSS to look more consistent across different browsers */
 @import "recipe-list.css";
 @import "buttons.css";
+@import "recipe-list.css";
+@import "recipe.css";
 
 body {
   background: orange;

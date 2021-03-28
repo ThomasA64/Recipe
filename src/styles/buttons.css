@@ -7,9 +7,25 @@
   padding: 5px 20px;
   cursor: pointer;
   border-radius: 25px;
+  margin: 0.1em;
 }
 
 .btn--primary {
   color: wheat;
   background-color: darkorange;
+}
+
+.btn--primary:hover {
+  transition: all 0.5s ease;
+  color: darksalmon;
+}
+
+.btn--danger {
+  color: wheat;
+  background-color: darkred;
+}
+
+.btn--danger:hover {
+  transition: all 0.5s ease;
+  color: darksalmon;
 }
