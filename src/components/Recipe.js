@@ -27,10 +27,8 @@ export default function Recipe(props) {
         </div>
       </div>
       <div className="recipe__row">
-        <span className="recipe__value indented instructions">
-          Ingredients:
-        </span>
-        <div>
+        <span className="recipe__label">Ingredients:</span>
+        <div className="recipe__value indented instructions">
           <IngredientList ingredients={ingredients} />
         </div>
       </div>
