@@ -4,7 +4,7 @@ import React from "react";
 import RecipeList from "./RecipeList";
 
 //styles:
-import "./styles/app.css";
+import "../styles/app.css";
 
 function App() {
   return <RecipeList recipes={sampleRecipes} />;
