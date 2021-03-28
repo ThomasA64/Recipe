@@ -1,3 +1,15 @@
 .btn {
   font-size: inherit;
+  font-weight: bold;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.btn--primary {
+  color: wheat;
+  background-color: darkorange;
 }

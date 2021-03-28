@@ -8,8 +8,8 @@ export default function Recipe(props) {
       <div>
         <h3>{name}</h3>
         <div>
-          <button>Edit</button>
-          <button>Delete</button>
+          <button className="btn btn--primary">Edit</button>
+          <button className="btn btn--primary">Delete</button>
         </div>
       </div>
       <div>
