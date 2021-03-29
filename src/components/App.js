@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import RecipeList from "./RecipeList";
-import "../css/app.css";
+import "../styles/app.css";
 import uuidv4 from "uuid/v4";
 
 export const RecipeContext = React.createContext();
