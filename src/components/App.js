@@ -32,7 +32,7 @@ function App() {
 
   return (
     <RecipeContext.Provider value={recipeContextValue}>
-      <RecipeList recipes={recipes} />
+      <RecipeList recipes={recipes} handleRecipeAdd={handleRecipeAdd} />
     </RecipeContext.Provider>
   );
 }
