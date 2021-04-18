@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import RecipeList from "./RecipeList";
+import RecipeEdit from "./RecipeEdit";
 import "../styles/app.css";
 import uuidv4 from "uuid/v4";
 
@@ -47,6 +48,7 @@ function App() {
         handleRecipeAdd={handleRecipeAdd}
         handleRecipeDelete={handleRecipeDelete}
       />
+      <RecipeEdit />
     </RecipeContext.Provider>
   );
 }
