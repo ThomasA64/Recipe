@@ -5,6 +5,11 @@
 @import "recipe-list.css";
 @import "recipe.css";
 @import "ingredient-list.css";
+@import "recipe-edit.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: orange;
