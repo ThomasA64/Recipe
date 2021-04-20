@@ -57,7 +57,7 @@ function App() {
         handleRecipeAdd={handleRecipeAdd}
         handleRecipeDelete={handleRecipeDelete}
       />
-      <RecipeEdit />
+      {selectedRecipe && <RecipeEdit recipe={selectedRecipe} />}
     </RecipeContext.Provider>
   );
 }
